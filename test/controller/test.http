@@ -1,0 +1,18 @@
+# POST http://127.0.0.1:4399/remote
+
+# {
+#     "name": 1
+# }
+
+
+# GET http://127.0.0.1:4599/api/xlogs_tree
+
+POST http://127.0.0.1:4599/api/xlogs
+Content-Type: application/json
+
+{
+    "project_name": "Xlog",
+    "category": "piantie_piantieqian",
+    "logs_name": "aaa_error_2022-03-27.log",
+    "type": "error"
+}
